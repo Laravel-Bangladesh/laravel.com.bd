@@ -3,17 +3,28 @@
 /**
  * Set the default documentation version...
  */
+
 if (! defined('DEFAULT_VERSION')) {
-    define('DEFAULT_VERSION', '5.7');
+    define('DEFAULT_VERSION', '5.6');
 }
 
 Route::get('/', function () {
     return view('marketing');
 });
 
+
+Route::get('/contributors', function () {
+    return view('contributors.view');
+});
+
+
+
 Route::get('docs', 'DocsController@showRootPage');
 Route::get('docs/{version}/{page?}', 'DocsController@show');
 
+
+
+/*
 Route::get('partners', function () {
     return view('partners');
 });
@@ -57,7 +68,7 @@ Route::get('/discord', function () {
 Route::get('/certification', function () {
     return redirect('https://certification.laravel.com');
 });
-
+*/
 // Route::get('/partner/insider', function () {
 //     return view('community-partner-insider');
 // });
