@@ -6,24 +6,24 @@
 
 <nav id="slide-menu" class="slide-menu" role="navigation">
 
-	<div class="brand">
-		<a href="/">
-			<img src="/assets/img/laravel-logo-white.png" height="50" alt="Laravel white logo">
-		</a>
-	</div>
+    <div class="brand">
+        <a href="/">
+            <img src="/assets/img/laravel-logo-white.png" height="50" alt="Laravel white logo">
+        </a>
+    </div>
 
-	<ul class="slide-main-nav">
-		@include('partials.main-nav')
-	</ul>
+    <ul class="slide-main-nav">
+        @include('partials.main-nav')
+    </ul>
 
 </nav>
 
 <section class="hero">
-	<div class="container">
+    <div class="container">
 
         <div class="content">
-            <h1>Love beautiful code? We do too.</h1>
-            <p>The PHP Framework For Web Artisans</p>
+            <h1>সুন্দর কোড পছন্দ করি? আমরাও করি </h1>
+            <p> ওয়েব ডেভেলপারদের জন্য পিএইচপি ফ্রেমওয়ার্ক</p>
         </div>
 
         @include('partials/browser')
@@ -36,22 +36,22 @@
 class Idea extends Eloquent
 {
 
-	/**
-	 * Dreaming of something more?
-	 *
-	 * @with Laravel
-	 */
-	public function create()
-	{
-		// Have a fresh start...
-	}
+    /**
+     * Dreaming of something more?
+     *
+     * @with Laravel
+     */
+    public function create()
+    {
+        // Have a fresh start...
+    }
 
 }</code></pre>
             {!! svg('macbook') !!}
         </div>
 
         <div class="callout rule">
-            <span class="text">See What's New!</span>
+            <span class="text">দেখুন নতুন কি আছে!</span>
         </div>
 
         <div class="callouts">
@@ -62,12 +62,12 @@ class Idea extends Eloquent
                 </div>
                 <p>Laravel Horizon provides a beautiful dashboard and code-driven configuration for your Redis queues.</p>
             </a>
-            <a href="https://nova.laravel.com" class="callout minimal third">
+            <a href="/docs/dusk" class="callout minimal third">
                 <div class="callout-head">
-                    <div class="callout-title">Laravel Nova</div>
-                    <div class="callout-icon"><?php echo svg('laravel-nova'); ?></div>
+                    <div class="callout-title">Laravel Dusk</div>
+                    <div class="callout-icon">{!! svg('logo-dusk')!!}</div>
                 </div>
-                <p>Laravel Nova is a beautiful administration panel designed by the creator of Laravel.</p>
+                <p>Laravel Dusk provides an expressive, easy-to-use browser automation and testing API. You'll love it.</p>
             </a>
             <a href="/docs/broadcasting" class="callout minimal third">
                 <div class="callout-head">
@@ -77,7 +77,7 @@ class Idea extends Eloquent
                 <p>Event broadcasting, evolved. Bring the power of WebSockets to your application without the complexity.</p>
             </a>
         </div>
-	</div>
+    </div>
 </section>
 
 {{-- <section class="panel laracon standout" id="laracon">
@@ -88,56 +88,56 @@ class Idea extends Eloquent
 </section> --}}
 
 <section class="panel features dark" id="features">
-	<h1>Did someone say rapid?</h1>
-	<p class="intro">Elegant applications delivered at warp speed.</p>
-		<div class="blocks stacked">
-			<div class="block odd">
-				<div class="text">
-					<h2>Expressive, beautiful syntax.</h2>
-					<p>Value elegance, simplicity, and readability? You’ll fit right in. Laravel is designed for people just like you. If you need help getting started, check out <a href="https://laracasts.com">Laracasts</a> and our <a href="/docs">great documentation</a>.</p>
-				</div>
-				<div class="media">
+    <h1>কেউ কি দ্রুত বলেছিলেন?</h1>
+    <p class="intro">Elegant applications delivered at warp speed.</p>
+        <div class="blocks stacked">
+            <div class="block odd">
+                <div class="text">
+                    <h2>Expressive, beautiful syntax.</h2>
+                    <p>Value elegance, simplicity, and readability? You’ll fit right in. Laravel is designed for people just like you. If you need help getting started, check out <a href="https://laracasts.com">Laracasts</a> and our <a href="/docs">great documentation</a>.</p>
+                </div>
+                <div class="media">
 
-					<div class='browser-window'>
-						<div class='top-bar'>
-							<div class='circles'>
-								<div class="circle circle-red"></div>
-								<div class="circle circle-yellow"></div>
-								<div class="circle circle-green"></div>
-							</div>
-						</div>
-						<div class='window-content'>
-							<pre class="line-numbers"><code class="language-php">
+                    <div class='browser-window'>
+                        <div class='top-bar'>
+                            <div class='circles'>
+                                <div class="circle circle-red"></div>
+                                <div class="circle circle-yellow"></div>
+                                <div class="circle circle-green"></div>
+                            </div>
+                        </div>
+                        <div class='window-content'>
+                            <pre class="line-numbers"><code class="language-php">
 class Purchase implements ShouldQueue
 {
 
-	/**
-	 * Purchase a new podcast.
-	 */
-	public function handle(Repository $repo)
-	{
-		foreach ($this->purchases as $purchase)
-		{
-			//
-		}
-	}
+    /**
+     * Purchase a new podcast.
+     */
+    public function handle(Repository $repo)
+    {
+        foreach ($this->purchases as $purchase)
+        {
+            //
+        }
+    }
 </code></pre>
-						</div>
-					</div>
+                        </div>
+                    </div>
 
-				</div>
-			</div><!-- /.block -->
-			<div class="block even">
-				<div class="text">
-					<h2>Tailored for your team.</h2>
-					<p>Whether you're a solo developer or a 20 person team, Laravel is a breath of fresh air. Keep everyone in sync using Laravel's database agnostic <a href="/docs/migrations">migrations</a> and <a href="/docs/migrations">schema builder</a>.</p>
-				</div>
-				<div class="media">
-					<div class="terminal-window">
-						<div class='top-bar'></div>
-						<div class='window-content'>
-							<div class="dark-code">
-							<pre><code class="language-bash">
+                </div>
+            </div><!-- /.block -->
+            <div class="block even">
+                <div class="text">
+                    <h2>Tailored for your team.</h2>
+                    <p>Whether you're a solo developer or a 20 person team, Laravel is a breath of fresh air. Keep everyone in sync using Laravel's database agnostic <a href="/docs/migrations">migrations</a> and <a href="/docs/migrations">schema builder</a>.</p>
+                </div>
+                <div class="media">
+                    <div class="terminal-window">
+                        <div class='top-bar'></div>
+                        <div class='window-content'>
+                            <div class="dark-code">
+                            <pre><code class="language-bash">
 ~/Apps $ php artisan make:migration create_users_table
 Migration created successfully!
 
@@ -147,27 +147,27 @@ Migrated: 2015_01_12_100000_create_password_resets_table
 Migrated: 2015_01_13_162500_create_projects_table
 Migrated: 2015_01_13_162508_create_servers_table
 </code></pre></div>
-						</div>
-					</div>
-				</div>
-			</div><!-- /.block -->
-			<div class="block odd">
-				<div class="text">
-					<h2>Modern toolkit. Pinch of magic.</h2>
-					<p>An <a href="/docs/eloquent">amazing ORM</a>, painless <a href="/docs/routing">routing</a>, powerful <a href="/docs/queues">queue library</a>, and <a href="/docs/authentication">simple authentication</a> give you the tools you need for modern, maintainable PHP. We sweat the small stuff to help you deliver amazing applications.
-				</div>
-				<div class="media">
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.block -->
+            <div class="block odd">
+                <div class="text">
+                    <h2>Modern toolkit. Pinch of magic.</h2>
+                    <p>An <a href="/docs/eloquent">amazing ORM</a>, painless <a href="/docs/routing">routing</a>, powerful <a href="/docs/queues">queue library</a>, and <a href="/docs/authentication">simple authentication</a> give you the tools you need for modern, maintainable PHP. We sweat the small stuff to help you deliver amazing applications.
+                </div>
+                <div class="media">
 
-					<div class='browser-window'>
-						<div class='top-bar'>
-							<div class='circles'>
-								<div class="circle circle-red"></div>
-								<div class="circle circle-yellow"></div>
-								<div class="circle circle-green"></div>
-							</div>
-						</div>
-						<div class='window-content'>
-							<pre class="line-numbers"><code class="language-php">
+                    <div class='browser-window'>
+                        <div class='top-bar'>
+                            <div class='circles'>
+                                <div class="circle circle-red"></div>
+                                <div class="circle circle-yellow"></div>
+                                <div class="circle circle-green"></div>
+                            </div>
+                        </div>
+                        <div class='window-content'>
+                            <pre class="line-numbers"><code class="language-php">
 Route::resource('photos', 'PhotoController');
 
 /**
@@ -175,28 +175,28 @@ Route::resource('photos', 'PhotoController');
  */
 Route::get('/user/{user}', function(App\User $user)
 {
-	return $user;
+    return $user;
 })
 </code></pre>
-					</div>
-				</div>
-			</div><!-- /.block -->
-		</div>
-	</section>
+                    </div>
+                </div>
+            </div><!-- /.block -->
+        </div>
+    </section>
 
-	<section class="panel ecosystem light" id="ecosystem">
-		<h1>The Laravel Ecosystem</h1>
-		<p class="intro">Revolutionize how you build the web.</p>
+    <section class="panel ecosystem light" id="ecosystem">
+        <h1>The Laravel Ecosystem</h1>
+        <p class="intro">Revolutionize how you build the web.</p>
 
         <div class="container">
-    		<a href="https://forge.laravel.com" class="callout full forge">
-    			<div class="content">
-					{!! svg('forge') !!}
-    				<p>Instant PHP Platforms On Linode, DigitalOcean, and more. Push to deploy, PHP 7.2, HHVM, queues, and everything you need to launch and deploy amazing Laravel applications.</p>
-    				<p>Launch your application in minutes!</p>
-    			</div>
+            <a href="https://forge.laravel.com" class="callout full forge">
+                <div class="content">
+                    {!! svg('forge') !!}
+                    <p>Instant PHP Platforms On Linode, DigitalOcean, and more. Push to deploy, PHP 7.2, HHVM, queues, and everything you need to launch and deploy amazing Laravel applications.</p>
+                    <p>Launch your application in minutes!</p>
+                </div>
                 <img src="https://forge.laravel.com/images/ui-preview.png" alt="Forge UI Preview" height="350" />
-    		</a>
+            </a>
             <div class="callouts">
                 <a class="third callout pop" href="/docs/homestead">
                     <div class="callout-head">
@@ -227,7 +227,7 @@ Route::get('/user/{user}', function(App\User $user)
                 </a>
             </div>
             <div class="callout rule">
-                <span class="text">And so much more!</span>
+                <span class="text">এবং আরো অনেক কিছু!</span>
             </div>
             <div class="packages">
                 <div class="third">
@@ -238,18 +238,7 @@ Route::get('/user/{user}', function(App\User $user)
                             <p>A Laravel development environment for Mac minimalists. No Vagrant, no Apache, no fuss.</p>
                         </div>
                     </div>
-                    <div class="package">
-                        <div class="icon">{!! svg('package') !!}</div>
-                        <div class="content">
-                            @if(rand(0, 1))
-                            <a href="https://cachethq.io" class="package-title">Cachet</a>
-                            <p>Cachet is the best way to inform customers of downtime. This is your status page.</p>
-                            @else
-                            <a href="https://styleci.io" class="package-title">StyleCI</a>
-                            <p>StyleCI is the PHP coding style continuous integration service for Laravel.</p>
-                            @endif
-                        </div>
-                    </div>
+
                 </div>
                 <div class="third">
                     <div class="package">
@@ -260,31 +249,22 @@ Route::get('/user/{user}', function(App\User $user)
                             <p>Laravel Mix makes front-end a breeze. Start using SASS and Webpack in minutes.</p>
                         </div>
                     </div>
-                    <div class="package">
-                        <div class="icon">{!! svg('package') !!}</div>
-                        <div class="content">
-                            <a href="https://spark.laravel.com" class="package-title">Spark</a>
-                            <p>Powerful SaaS application scaffolding. Stop writing boilerplate & focus on your application.</p>
-                        </div>
-                    </div>
                 </div>
                 <div class="third">
                     <div class="package">
                         <div class="icon">{!! svg('package') !!}</div>
                         <div class="content">
-                            <a href="https://lumen.laravel.com" class="package-title">Lumen</a>
-                            <p>If all you need is an API and lightning fast speed, try Lumen. It’s Laravel super-light.</p>
-                        </div>
-                    </div>
-                    <div class="package last">
-                        <div class="icon">{!! svg('package') !!}</div>
-                        <div class="content">
-                            <a href="https://statamic.com" class="package-title">Statamic</a>
-                            <p>Need a CMS that runs on Laravel and is built for developers <em>and</em> clients? Look no further. </p>
+                            @if(rand(0, 1))
+                                <a href="https://cachethq.io" class="package-title">Cachet</a>
+                                <p>Cachet is the best way to inform customers of downtime. This is your status page.</p>
+                            @else
+                                <a href="https://styleci.io" class="package-title">StyleCI</a>
+                                <p>StyleCI is the PHP coding style continuous integration service for Laravel.</p>
+                            @endif
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-	</section>
+    </section>
 @endsection
