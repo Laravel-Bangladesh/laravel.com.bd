@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7737514/7707592/css/fonts.css" />
     <link rel="apple-touch-icon" href="/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+    <meta name="msvalidate.01" content="B3A90AFE2F6C367F46A431F27EAEC5CE" />
 </head>
 <body class="@yield('body-class', 'docs') language-php">
     <div class="laracon-banner">
