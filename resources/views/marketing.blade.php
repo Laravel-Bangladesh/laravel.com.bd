@@ -186,7 +186,7 @@ Route::get('/user/{user}', function(App\User $user)
 
     <section class="panel ecosystem light" id="ecosystem">
         <h1>Laravel ইকোসিস্টেম</h1>
-        <p class="intro">বৈপ্লবিক, যেভাবে আপনি ওয়েব নির্মাণ.</p>
+        <p class="intro">বৈপ্লবিক, যেভাবে আপনি ওয়েব নির্মাণ করেন.</p>
 
         <div class="container">
             <a href="https://forge.laravel.com" class="callout full forge">
