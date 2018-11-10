@@ -22,8 +22,8 @@
     <div class="container">
 
         <div class="content">
-            <h1>সুন্দর কোড পছন্দ করি? আমরাও করি </h1>
-            <p> ওয়েব ডেভেলপারদের জন্য পিএইচপি ফ্রেমওয়ার্ক</p>
+            <h1>সুন্দর কোড পছন্দ করেন? আমরাও করি </h1>
+            <p> ওয়েব শিল্পীদের জন্য পিএইচপি ফ্রেমওয়ার্ক</p>
         </div>
 
         @include('partials/browser')
@@ -88,8 +88,8 @@ class Idea extends Eloquent
 </section> --}}
 
 <section class="panel features dark" id="features">
-    <h1>কেউ কি দ্রুত বলেছিলেন?</h1>
-    <p class="intro">Elegant applications delivered at warp speed.</p>
+    <h1>দ্রুততা?</h1>
+    <p class="intro">মার্জিত অ্যাপ্লিকেশন টানা গতিতে বিতরণ.</p>
         <div class="blocks stacked">
             <div class="block odd">
                 <div class="text">
@@ -185,8 +185,8 @@ Route::get('/user/{user}', function(App\User $user)
     </section>
 
     <section class="panel ecosystem light" id="ecosystem">
-        <h1>The Laravel Ecosystem</h1>
-        <p class="intro">Revolutionize how you build the web.</p>
+        <h1>Laravel ইকোসিস্টেম</h1>
+        <p class="intro">বৈপ্লবিক, যেভাবে আপনি ওয়েব নির্মাণ.</p>
 
         <div class="container">
             <a href="https://forge.laravel.com" class="callout full forge">
