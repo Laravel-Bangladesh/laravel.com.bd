@@ -156,14 +156,8 @@ function build_user(user){
         name = data.login;
       else
         name = data.name;
-    
-      if(data.location != null )
-        location = data.location;
 
-      if(data.blog != null )
-        blog = '<a href="'+ data.blog +'"  target="_blank" class="profile-btn"><i class="fa fa-globe" aria-hidden="true"></i>Website</a>';
-
-        $html = ' <div class="profile-box"> <img src="'+ data.avatar_url +'" alt="'+ data.name +'"> <h3>'+ name +'</h3><h4>'+ location +'</h4><div class="btn-container"><a href="'+ data.html_url +'"  target="_blank" class="profile-btn" >Github</a>'+ blog +'</div></div>';
+        $html = ' <div class="profile-box"> <a href="'+ data.html_url +'"><img src="'+ data.avatar_url +'" alt="'+ data.name +'"></a> <h3>'+ name +'</h3><h4>'+ location +'</h4></div>';
 
         $('#contributors_list').append($html);
       })
