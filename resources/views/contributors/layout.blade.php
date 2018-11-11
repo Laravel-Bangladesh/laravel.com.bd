@@ -87,8 +87,8 @@
 <script>
 
       $(document).ready(function(){
-
-     var  user = ["7860229"];
+ var  user = [];
+       user = ["7860229"];
 
 website_users(user);
 
