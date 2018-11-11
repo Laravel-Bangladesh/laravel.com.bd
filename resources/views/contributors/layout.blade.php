@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title> অবদানকারীর -  লারাভেল - ওয়েব ডেভেলপারদের জন্য পিএইচপি ফ্রেমওয়ার্ক</title>
+    <title> অবদানকারীর -  লারাভেল ফ্রেমওয়ার্ক -  ওয়েব শিল্পীদের জন্য পিএইচপি ফ্রেমওয়ার্ক </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Jubayed Hossain">
-    <meta name="description" content="লারাভেল - ওয়েব ডেভেলপারদের জন্য পিএইচপি ফ্রেমওয়ার্ক">
-    <meta name="keywords" content="laravel, php, framework, web, artisans, jubayed, bangla, bd, লারাভেল, পিএইচপি, ফ্রেমওয়ার্ক">
+    <meta name="description" content="লারাভেল - ওয়েব শিল্পীদের জন্য পিএইচপি ফ্রেমওয়ার্ক">
+    <meta name="keywords" content="laravel bangla, laravel bd, লারাভেল পিএইচপি ফ্রেমওয়ার্ক, লারাভেল ফ্রেমওয়ার্ক, লারাভেল, পিএইচপি, ফ্রেমওয়ার্ক">
     <meta name="google-site-verification" content="0zGjqFVduurLPHXaZEJB_sCiK5STdxJ_NPR0wwmTc1o" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @if (isset($canonical))
@@ -86,9 +86,8 @@
 
 <script>
   $(document).ready(function(){
-          
+ 
   var  user = [];
-
   website_users(user);
 
   function website_users(user){
