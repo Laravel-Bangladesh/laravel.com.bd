@@ -85,16 +85,13 @@
 
 
 <script>
+  $(document).ready(function(){
+          
+  var  user = ["7860229", '9925505'];
 
-      $(document).ready(function(){
- var  user = [];
-       user = ["7860229"];
+  website_users(user);
 
-user = website_users(user);
-user = docs_users(user);
-user = build_user(user);
-
-function website_users(user){
+  function website_users(user){
       // and remember the jqxhr object for this request
     $.getJSON( "https://api.github.com/repos/Laravel-Bangladesh/laravel.com.bd/pulls?state=all", function() {
       console.log( "get all pulls" );
@@ -109,13 +106,12 @@ function website_users(user){
                     //console.log(value.user);
         }
       });
-      return user;
+      docs_users(user);
     })
     .fail(function() {
       console.log( "error pulls" );
     })
-
-}
+  }
 
 
 function docs_users(user){
@@ -126,14 +122,15 @@ function docs_users(user){
   .done(function(data) {
     $.each( data, function( key, value ) {
 
-      var a = user.indexOf( ""+ value.user.id + "");
+      var b = user.indexOf( ""+ value.user.id + "");
 
-      if (a == -1 ) {
+      if (b == -1 ) {
         user.push("" + value.user.id + "" );
           //console.log(value.user);
       }
+     
     });
-    return user;
+    build_user(user);
   })
   .fail(function() {
     console.log( "error pulls" );
@@ -178,8 +175,7 @@ function build_user(user){
   }
 
 });
-
-    </script>
+</script>
 
 </body>
 </html>
