@@ -91,6 +91,33 @@
          
          
          user = ["9925505", "7860229"];
+         
+// and remember the jqxhr object for this request
+$.getJSON( "https://api.github.com/repos/Laravel-Bangladesh/laravel.com.bd/pulls?state=all", function() {
+  console.log( "get all pulls" );
+})
+.done(function(data) {
+    $.each( data, function( key, value ) {
+
+     var a = user.indexOf( ""+ value.user.id + "");
+
+     if (a == -1 ) {
+         user.push("" + value.user.id + "" );
+                //console.log(value.user);
+            }
+
+        });
+
+    build_user(user);
+
+})
+
+.fail(function() {
+    console.log( "error pulls" );
+})
+
+
+
 
             // Assign handlers immediately after making the request,
 // and remember the jqxhr object for this request
