@@ -87,7 +87,7 @@
 <script>
   $(document).ready(function(){
           
-  var  user = ["7860229", '9925505'];
+  var  user = [];
 
   website_users(user);
 
