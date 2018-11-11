@@ -82,121 +82,112 @@
         }(document,'script'));
     </script>
 
-    <script>
-
-        $(document).ready(function(){
 
 
-         var user= [];
-         
-         
-         user = ["9925505", "7860229"];
-         
-// and remember the jqxhr object for this request
-$.getJSON( "https://api.github.com/repos/Laravel-Bangladesh/laravel.com.bd/pulls?state=all", function() {
-  console.log( "get all pulls" );
-})
-.done(function(data) {
+<script>
+
+      $(document).ready(function(){
+
+     var  user = ["7860229"];
+
+website_users(user);
+
+function website_users(user){
+      // and remember the jqxhr object for this request
+    $.getJSON( "https://api.github.com/repos/Laravel-Bangladesh/laravel.com.bd/pulls?state=all", function() {
+      console.log( "get all pulls" );
+    })
+    .done(function(data) {
+      $.each( data, function( key, value ) {
+
+       var a = user.indexOf( ""+ value.user.id + "");
+
+       if (a == -1 ) {
+         user.push("" + value.user.id + "" );
+                    //console.log(value.user);
+                  }
+
+                });
+
+      docs_users(user);
+
+    })
+
+    .fail(function() {
+      console.log( "error pulls" );
+    })
+
+}
+
+
+function docs_users(user){
+
+  $.getJSON( "https://api.github.com/repos/Laravel-Bangladesh/docs/pulls?state=all", function() {
+    console.log( "get all pulls" );
+  })
+  .done(function(data) {
     $.each( data, function( key, value ) {
 
      var a = user.indexOf( ""+ value.user.id + "");
 
      if (a == -1 ) {
-         user.push("" + value.user.id + "" );
-                //console.log(value.user);
-            }
+       user.push("" + value.user.id + "" );
+                  //console.log(value.user);
+                }
 
-        });
-
-    build_user(user);
-
-})
-
-.fail(function() {
-    console.log( "error pulls" );
-})
-
-
-
-
-            // Assign handlers immediately after making the request,
-// and remember the jqxhr object for this request
-$.getJSON( "https://api.github.com/repos/Laravel-Bangladesh/docs/pulls?state=all", function() {
-  console.log( "get all pulls" );
-})
-.done(function(data) {
-    $.each( data, function( key, value ) {
-
-     var a = user.indexOf( ""+ value.user.id + "");
-
-     if (a == -1 ) {
-         user.push("" + value.user.id + "" );
-                //console.log(value.user);
-            }
-
-        });
+    });
 
     build_user(user);
 
-})
+  });
 
-.fail(function() {
+  .fail(function() {
     console.log( "error pulls" );
-})
-
-
+  });
+}
 
 function build_user(user){
 
+  var name = "";
+  var location = "&nbsp;&nbsp;";
+  var blog = "&nbsp;&nbsp;";
 
+  $.each( user, function( key, value ) {
 
-    var name = "";
-    var location = "&nbsp;&nbsp;";
-    var blog = "#";
-
-    $.each( user, function( key, value ) {
-
-        $.getJSON( "https://api.github.com/user/"+ value +"", function() {
-          console.log( "success" );
-      })
-        .done(function(data) {
-          console.log(data);
+    $.getJSON( "https://api.github.com/user/"+ value +"", function() {
+      console.log( "success" );
+    })
+    .done(function(data) {
+      console.log(data);
 
   // ===========
 
   if(data.name == null )
     name = data.login;
-else
+  else
     name = data.name;
 
-if(data.location != null )
+  if(data.location != null )
     location = data.location;
 
-if(data.blog != null )
-    blog = data.blog;
-else
-  blog = "#";
+  if(data.blog != null )
+    blog = '<a href="'+ blog +'"  target="_blank" class="profile-btn"><i class="fa fa-globe" aria-hidden="true"></i>Website</a>';
 
+    $html = ' <div class="profile-box"> <img src="'+ data.avatar_url +'" alt="'+ data.name +'"> <h3>'+ name +'</h3><h4>'+ location +'</h4><div class="btn-container"><a href="'+ data.html_url +'"  target="_blank" class="profile-btn" >Github</a>'+ blog +'</div></div>';
 
-$html = ' <div class="profile-box"> <img src="'+ data.avatar_url +'" alt="'+ data.name +'"> <h3>'+ name +'</h3><h4>'+ location +'</h4><div class="btn-container"><a href="'+ data.html_url +'"  target="_blank" class="profile-btn" >Github</a><a href="'+ blog +'"  target="_blank" class="profile-btn"><i class="fa fa-globe" aria-hidden="true"></i>Website</a></div></div>';
-
-$('#contributors_list').append($html);
-
-
-       })
-
-        .fail(function() {
-            console.log( "error con-user-data" );
-        })
+      $('#contributors_list').append($html);
+  });
+    .fail(function() {
+      console.log( "error con-user-data" );
+    });
 
 
     });
-}
+  }
 
 });
 
     </script>
+
 </body>
-
-
 </html>
