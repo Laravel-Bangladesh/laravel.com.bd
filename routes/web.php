@@ -14,7 +14,7 @@ Route::get('/', function () {
 
 
 Route::get('/contributors', function () {
-    return view('contributors.view');
+  //  return view('contributors.view');
 });
 
 
