@@ -18,7 +18,7 @@
 
 <section class="partner-profile">
     <div class="container">
-        <a href="/partners"><h4>Laravel Partners</h4></a>
+        <a href="/partners"><h4>লারাভেল পার্টনারস</h4></a>
 
         <div class="partner-profile-header clearfix">
             <div class="partner-logo">
@@ -31,8 +31,8 @@
                 </svg>
             </div>
             <div class="partner-ctas">
-                <a href="mailto:jon@64robots.com"><div class="btn btn-primary">Hire 64 Robots</div></a>
-                <a href="https://64robots.com"><div class="btn btn-default">Visit Website</div></a>
+                <a href="mailto:jon@64robots.com"><div class="btn btn-primary">64 Robots কে নিযুক্ত করুন</div></a>
+                <a href="https://64robots.com"><div class="btn btn-default">ওয়েবসাইট পরিদর্শন করুন</div></a>
             </div>
         </div>
 
@@ -41,7 +41,7 @@
                 <div class="partner-profile-img"><img src="/assets/img/partner-img-64robots.png"></div>
 
                 <div class="partner-proficiencies">
-                    <h4>Proficiencies</h4>
+                    <h4>দক্ষতা</h4>
                     <div class="flex">
                         <ul class="partner-proficiencies-list multi-col flex-fill">
                             <li>Laravel Development</li>
@@ -71,7 +71,7 @@
 
             <div class="partner-profile-bio col-md-6">
                 <h2>About 64 Robots</h2>
-                <h5>We launch your product to the next level.</h5>
+                <h5>আমরা আপনার পণ্য পরবর্তী স্তরে নিয়ে যাই</h5>
 
                 <p>64 Robots is a team of Laravel experts with a background in building successful startups and SaaS products. We specialize in building Laravel APIs, Vue.js single page applications and Quasar framework mobile apps.</p>
                 <p>Although we love working with companies of all sizes, our team excels at guiding early-stage, funded startups to make the right technology decisions and build a polished product that will put you on the right path. </p>
