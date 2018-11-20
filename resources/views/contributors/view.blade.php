@@ -137,7 +137,7 @@
 <div class="hero">
     <div class="container">
         <div class="content">
-            <h1>যারা অবদান রেখেছেন! আমরাও করি </h1>
+            <h1>যারা অবদান রেখেছেন! আমরাও অবদান রাখি...</h1>
             <p> লারাভেল ডকুমেন্টেশন বাংলায় অনুবাদ করে  <a href="https://github.com/laravel-bangladesh/docs" target="_blank">সহায়তা করুন</a> </p>
         </div>
     </div>
