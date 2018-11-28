@@ -5,7 +5,7 @@
  */
 
 if (! defined('DEFAULT_VERSION')) {
-    define('DEFAULT_VERSION', '5.6');
+    define('DEFAULT_VERSION', '5.7');
 }
 
 Route::get('/', function () {
