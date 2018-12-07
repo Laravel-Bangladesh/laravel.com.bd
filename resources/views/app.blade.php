@@ -5,8 +5,8 @@
     <title>{{ isset($title) ? $title . ' - ' : null }} লারাভেল ফ্রেমওয়ার্ক  -  ওয়েব শিল্পীদের জন্য পিএইচপি ফ্রেমওয়ার্ক</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Jubayed Hossain">
-    <meta name="description" content="লারাভেল বাংলা ডকুমেন্টেশন laravel.com থেকে অনুবাদ করা। ডকুমেন্টেশন বিজ্ঞাপনহীন সম্পূর্ণ বিনামূল্যে। যা লারাভেল ফ্রেমওয়ার্ক বাংলা ভাষায় শিখতে সহায়তা করবে। "> 
-    <meta name="keywords" content="laravel bangla, laravel bd, laravel.bd, laravel.com.bd, লারাভেল ফ্রেমওয়ার্ক, লারাভেল পিএইচপি, ফ্রেমওয়ার্ক , লারাভেল, পিএইচপি, ফ্রেমওয়ার্ক,লারাভেল পিএইচপি ওয়েব ফ্রেমওয়ার্ক ">
+    <meta name="description" content="লারাভেল বাংলা(laravel bangla) ডকুমেন্টেশন laravel.com থেকে অনুবাদ করা। ডকুমেন্টেশন বিজ্ঞাপনহীন সম্পূর্ণ বিনামূল্যে। যা লারাভেল ফ্রেমওয়ার্ক বাংলা ভাষায় শিখতে সহায়তা করবে"> 
+    <meta name="keywords" content="laravel bangla, laravel bd লারাভেল ফ্রেমওয়ার্ক, লারাভেল পিএইচপি, ফ্রেমওয়ার্ক, লারাভেল">
     <meta name="google-site-verification" content="0zGjqFVduurLPHXaZEJB_sCiK5STdxJ_NPR0wwmTc1o" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @if (isset($canonical))
