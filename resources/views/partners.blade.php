@@ -55,7 +55,7 @@
                         </div>
                     </a>
                 </div>
-<!--
+{{--
                 <div class="flex-row">
                     <a href="/partner/byte5" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-byte5">
@@ -135,7 +135,7 @@
                     </a>
                 </div>
                 
-                        -->
+                    --}}
             </div>
         </div>
     </section>
