@@ -29,7 +29,7 @@
 
         <div class="row">
             <div class="partner-profile-overview col-md-6">
-                <div class="partner-profile-img"><img src="/assets/img/hostpresto-img-vehikl.png"></div>
+                <div class="partner-profile-img"><img src="https://hostpresto.com/wp-content/themes/hostpresto/assets/img/logos/logo-white-blue.svg"></div>
 
                 <div class="partner-proficiencies">
                     <h4>Service</h4>
@@ -56,10 +56,6 @@
                 </div>
                 
                 
-
-
-
-g
 
 
                 <div class="partner-social">
