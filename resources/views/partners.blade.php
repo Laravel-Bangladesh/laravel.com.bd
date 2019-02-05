@@ -32,7 +32,7 @@
     <section class="panel partners dark">
         <div class="container">
             <div class="callouts flex-column mw-620px">
-                <a href="/partner/vehikl" class="partner-card">
+                <a href="/partner/hostpresto/" class="partner-card">
                     <div class="partner-card-banner partner-card-lg partner-logo-banner-vehikl">
                         <img src="/assets/svg/vehikl-logo-white.svg">
                         <div class="flag">🇨🇦</div>
@@ -40,20 +40,22 @@
                 </a>
 
                 <div class="flex-row">
-                    <a href="/partner/tighten" class="partner-card mr-2">
+                    <a href="/partner/neu" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-tighten">
                             <img src="/assets/svg/tighten-logo-white.svg">
-                            <div class="flag">🇺🇸</div>
+                            <div class="flag">🇧🇩 </div>
                         </div>
                     </a>
-                    <a href="/partner/kirschbaum-development-group" class="partner-card">
+                    
+                    
+                    <a href="#" class="partner-card">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-kirschbaum">
                             <img src="/assets/svg/kirschbaum-logo-white.svg">
                             <div class="flag">🇺🇸</div>
                         </div>
                     </a>
                 </div>
-
+<!--
                 <div class="flex-row">
                     <a href="/partner/byte5" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-byte5">
@@ -118,6 +120,8 @@
                         </div>
                     </a>
                 </div>
+                
+                -->
 
                 <div class="flex-row">
                     <a href="mailto:&#116;&#097;&#121;&#108;&#111;&#114;&#064;&#108;&#097;&#114;&#097;&#118;&#101;&#108;&#046;&#099;&#111;&#109;" class="partner-card-md partner-card-call mb-2">
