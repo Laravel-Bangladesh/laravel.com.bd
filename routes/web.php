@@ -24,10 +24,12 @@ Route::get('docs/{version}/{page?}', 'DocsController@show');
 
 
 
-/*
+
 Route::get('partners', function () {
     return view('partners');
 });
+
+/*
 
 Route::get('/partner/tighten', function () {
     return view('community-partner-tighten');
