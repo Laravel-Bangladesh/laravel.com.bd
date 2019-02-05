@@ -34,7 +34,7 @@
             <div class="callouts flex-column mw-620px">
                 <a href="/partner/hostpresto/" class="partner-card">
                     <div class="partner-card-banner partner-card-lg partner-logo-banner-vehikl">
-                        <img src="/assets/svg/vehikl-logo-white.svg">
+                        <img src="/assets/svg/hostpresto-logo-white.svg">
                         <div class="flag">🇨🇦</div>
                     </div>
                 </a>
