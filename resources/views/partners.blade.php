@@ -42,7 +42,7 @@
                 <div class="flex-row">
                     <a href="/partner/neu" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-tighten">
-                            <img src="/assets/svg/tighten-logo-white.svg">
+                            <img src="#">
                             <div class="flag">🇧🇩 </div>
                         </div>
                     </a>
