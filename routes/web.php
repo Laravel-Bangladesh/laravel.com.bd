@@ -29,12 +29,12 @@ Route::get('partners', function () {
     return view('partners');
 });
 
-/*
 
-Route::get('/partner/tighten', function () {
-    return view('community-partner-tighten');
+Route::get('/partner/hostpresto', function () {
+    return view('community-partner-hostpresto');
 });
 
+/*
 Route::get('/partner/vehikl', function () {
     return view('community-partner-vehikl');
 });
