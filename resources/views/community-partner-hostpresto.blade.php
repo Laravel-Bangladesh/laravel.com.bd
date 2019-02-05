@@ -21,7 +21,7 @@
         <a href="/partners"><h4>Laravel Partners</h4></a>
 
         <div class="partner-profile-header clearfix">
-            <div class="partner-logo"><img src="/assets/svg/hostpresto-logo-white.svg"></div>
+            <div class="partner-logo" style="background-color: #172B5C;"><img src="/assets/svg/hostpresto-logo-white.svg"></div>
             <div class="partner-ctas">
                 <a href="http://hostpresto.com"><div class="btn btn-default">Visit Website</div></a>
             </div>
