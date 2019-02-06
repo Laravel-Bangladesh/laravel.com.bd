@@ -86,5 +86,12 @@
             s.parentNode.insertBefore(g,s)
         }(document,'script'));
     </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7535539102225595",
+    enable_page_level_ads: true
+  });
+</script>
 </body>
 </html>
