@@ -19,14 +19,6 @@
     <link rel="apple-touch-icon" href="/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
     <meta name="msvalidate.01" content="B3A90AFE2F6C367F46A431F27EAEC5CE" />
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-7535539102225595",
-    enable_page_level_ads: true
-  });
-</script>
-
 </head>
 <body class="@yield('body-class', 'docs') language-php">
     <div class="laracon-banner">
