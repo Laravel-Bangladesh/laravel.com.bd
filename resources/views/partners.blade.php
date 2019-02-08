@@ -47,11 +47,23 @@
                         </div>
                     </a>
                     
-                    
                     <a href="#" class="partner-card">
                         
                     </a>
                 </div>
+                
+                
+                <div class="flex-row">
+                    <a href="mailto:jubayed@laravel.com.bd;" class="partner-card-md partner-card-call mb-2">
+                        <div class="partner-banner-become-title"> |</div>
+
+                        <div class="partner-card-body">
+               
+                            <div class="text-red">Contact Us</div>
+                        </div>
+                    </a>
+                </div>
+
 
             </div>
         </div>
